@@ -19,12 +19,10 @@ namespace Calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int num1 = 1;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int num2 = 2;
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
@@ -34,7 +32,8 @@ namespace Calculadora
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            string Num01 = txtNumero01.Text;
+            decimal Nu_1= Convert.ToDecimal(Num01);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -49,6 +48,23 @@ namespace Calculadora
 
         private void label2_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void txtNumero01_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumero02_TextChanged(object sender, EventArgs e)
+        {
+            string Num02 = txtNumero02.Text;
+            decimal Nu_2 = Convert.ToDecimal(Num02);
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+            decimal soma = (Nu_1  + Nu_2
 
         }
     }

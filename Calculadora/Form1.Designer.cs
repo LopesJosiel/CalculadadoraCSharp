@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.colorDialog2 = new System.Windows.Forms.ColorDialog();
-            this.Numero01 = new System.Windows.Forms.Label();
-            this.Numero02 = new System.Windows.Forms.Label();
+            this.Num01 = new System.Windows.Forms.Label();
+            this.Num02 = new System.Windows.Forms.Label();
             this.txtNumero01 = new System.Windows.Forms.TextBox();
             this.txtNumero02 = new System.Windows.Forms.TextBox();
             this.txtSoma = new System.Windows.Forms.Label();
@@ -44,45 +44,48 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Numero01
+            // Num01
             // 
-            this.Numero01.AutoSize = true;
-            this.Numero01.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Numero01.ForeColor = System.Drawing.Color.MediumBlue;
-            this.Numero01.Location = new System.Drawing.Point(28, 64);
-            this.Numero01.Name = "Numero01";
-            this.Numero01.Size = new System.Drawing.Size(87, 20);
-            this.Numero01.TabIndex = 0;
-            this.Numero01.Text = "Numero01";
+            this.Num01.AutoSize = true;
+            this.Num01.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num01.ForeColor = System.Drawing.Color.MediumBlue;
+            this.Num01.Location = new System.Drawing.Point(28, 64);
+            this.Num01.Name = "Num01";
+            this.Num01.Size = new System.Drawing.Size(87, 20);
+            this.Num01.TabIndex = 0;
+            this.Num01.Text = "Numero01";
             // 
-            // Numero02
+            // Num02
             // 
-            this.Numero02.AutoSize = true;
-            this.Numero02.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Numero02.ForeColor = System.Drawing.Color.MediumBlue;
-            this.Numero02.Location = new System.Drawing.Point(28, 100);
-            this.Numero02.Name = "Numero02";
-            this.Numero02.Size = new System.Drawing.Size(87, 20);
-            this.Numero02.TabIndex = 1;
-            this.Numero02.Text = "Numero02";
+            this.Num02.AutoSize = true;
+            this.Num02.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Num02.ForeColor = System.Drawing.Color.MediumBlue;
+            this.Num02.Location = new System.Drawing.Point(28, 100);
+            this.Num02.Name = "Num02";
+            this.Num02.Size = new System.Drawing.Size(87, 20);
+            this.Num02.TabIndex = 1;
+            this.Num02.Text = "Numero02";
             // 
             // txtNumero01
             // 
-            this.txtNumero01.ForeColor = System.Drawing.Color.Lime;
+            this.txtNumero01.AcceptsReturn = true;
+            this.txtNumero01.ForeColor = System.Drawing.Color.Black;
             this.txtNumero01.Location = new System.Drawing.Point(159, 64);
             this.txtNumero01.Name = "txtNumero01";
             this.txtNumero01.Size = new System.Drawing.Size(129, 25);
             this.txtNumero01.TabIndex = 2;
             this.txtNumero01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNumero01.TextChanged += new System.EventHandler(this.txtNumero01_TextChanged);
             // 
             // txtNumero02
             // 
-            this.txtNumero02.ForeColor = System.Drawing.Color.Lime;
+            this.txtNumero02.ForeColor = System.Drawing.Color.Black;
             this.txtNumero02.Location = new System.Drawing.Point(159, 95);
             this.txtNumero02.Name = "txtNumero02";
             this.txtNumero02.Size = new System.Drawing.Size(129, 25);
             this.txtNumero02.TabIndex = 3;
             this.txtNumero02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNumero02.TextChanged += new System.EventHandler(this.txtNumero02_TextChanged);
             // 
             // txtSoma
             // 
@@ -132,16 +135,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.Lime;
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(159, 151);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(129, 25);
             this.textBox1.TabIndex = 8;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // textBox2
             // 
-            this.textBox2.ForeColor = System.Drawing.Color.Lime;
+            this.textBox2.ForeColor = System.Drawing.Color.Black;
             this.textBox2.Location = new System.Drawing.Point(159, 182);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(129, 25);
@@ -150,7 +154,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.ForeColor = System.Drawing.Color.Lime;
+            this.textBox3.ForeColor = System.Drawing.Color.Black;
             this.textBox3.Location = new System.Drawing.Point(159, 213);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(129, 25);
@@ -159,7 +163,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.ForeColor = System.Drawing.Color.Lime;
+            this.textBox4.ForeColor = System.Drawing.Color.Black;
             this.textBox4.Location = new System.Drawing.Point(159, 245);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(129, 25);
@@ -181,6 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(357, 327);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox4);
@@ -193,8 +198,8 @@
             this.Controls.Add(this.txtSoma);
             this.Controls.Add(this.txtNumero02);
             this.Controls.Add(this.txtNumero01);
-            this.Controls.Add(this.Numero02);
-            this.Controls.Add(this.Numero01);
+            this.Controls.Add(this.Num02);
+            this.Controls.Add(this.Num01);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -208,8 +213,8 @@
 
         #endregion
         private System.Windows.Forms.ColorDialog colorDialog2;
-        private System.Windows.Forms.Label Numero01;
-        private System.Windows.Forms.Label Numero02;
+        private System.Windows.Forms.Label Num01;
+        private System.Windows.Forms.Label Num02;
         private System.Windows.Forms.TextBox txtNumero01;
         private System.Windows.Forms.TextBox txtNumero02;
         private System.Windows.Forms.Label txtSoma;
