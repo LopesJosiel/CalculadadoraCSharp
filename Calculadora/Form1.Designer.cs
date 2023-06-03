@@ -47,6 +47,7 @@
             // Num01
             // 
             this.Num01.AutoSize = true;
+            this.Num01.Cursor = System.Windows.Forms.Cursors.Default;
             this.Num01.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Num01.ForeColor = System.Drawing.Color.MediumBlue;
             this.Num01.Location = new System.Drawing.Point(28, 64);
@@ -97,6 +98,7 @@
             this.txtSoma.Size = new System.Drawing.Size(50, 20);
             this.txtSoma.TabIndex = 4;
             this.txtSoma.Text = "Soma";
+            this.txtSoma.Click += new System.EventHandler(this.txtSoma_Click);
             // 
             // txtSubtracao
             // 
