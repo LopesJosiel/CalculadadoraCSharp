@@ -18,52 +18,41 @@ namespace Calculadora
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void button2_Click(object sender, EventArgs e)
         {
         }
 
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        public void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public void label1_Click(object sender, EventArgs e)
         {
            
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        public void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        public void label3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        public void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void txtNumero01_TextChanged(object sender, EventArgs e)
+        public void txtNumero01_TextChanged(object sender, EventArgs e)
         {
-            // primeiro declarar as variaveis;
-            int n1;
-            int n2;
-            // agora fazendo a conversão das variáveis;
-            n1 = Convert.To
-            n2 = Convert.ToUInt32 (txtNumero02.Text);
-            // declarando as quatro variáveis para as quatro operações básicas;
-            double soma1 = n1 + n2;
-            double subtrcao = n2 - n1;
-            double multiplicaco1 = n1 * n2;
-            double divisao = n2 / n1;
         }
 
         private void txtNumero02_TextChanged(object sender, EventArgs e)
@@ -78,17 +67,38 @@ namespace Calculadora
 
         private void txtSoma_Click(object sender, EventArgs e)
         {
-            // primeiro declarar as variaveis;
-            Int32  n1;
-            Int32 n2;
-            Int32 soma1;
-            // agora fazendo a conversão das variáveis;
-            n1 = (int)Convert.ToUInt32(txtNumero01.Text);
-            n2 = (int)Convert.ToUInt32(txtNumero02.Text);
-            // declarando as quatro variáveis para as quatro operações básicas;
-            soma1 = n1 + n2;
-            string textBox1 = Convert.ToString(soma1);
+        }
 
+        private void soma_Click(object sender, EventArgs e)
+        {// primeiro declarar as variaveis;
+            double n1;
+            double n2;
+            double soma1;
+            // agora fazendo a conversão das variáveis;
+            n1 = Convert.ToDouble(textBox5.Text);
+            n2 = Convert.ToDouble(textBox6.Text);
+            // declarando as quatro variáveis para cada operação básica;
+            soma1 = n1 + n2;
+            string label2 = Convert.ToString(soma1);
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            double n1;
+            double n2;
+            double soma1;
+            // agora fazendo a conversão das variáveis;
+            n1 = Convert.ToDouble(textBox5.Text);
+            n2 = Convert.ToDouble(textBox6.Text);
+            // declarando as quatro variáveis para cada operação básica;
+            soma1 = n1 + n2;
+            string label2 = Convert.ToString(soma1);
         }
     }
 }

@@ -31,17 +31,14 @@
             this.colorDialog2 = new System.Windows.Forms.ColorDialog();
             this.Num01 = new System.Windows.Forms.Label();
             this.Num02 = new System.Windows.Forms.Label();
-            this.txtNumero01 = new System.Windows.Forms.TextBox();
-            this.txtNumero02 = new System.Windows.Forms.TextBox();
-            this.txtSoma = new System.Windows.Forms.Label();
-            this.txtSubtracao = new System.Windows.Forms.Label();
-            this.txtMultiplicacao = new System.Windows.Forms.Label();
-            this.txtDivisao = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.soma = new System.Windows.Forms.Button();
+            this.subtracao = new System.Windows.Forms.Button();
+            this.multiplicacao = new System.Windows.Forms.Button();
+            this.divisao = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Num01
@@ -67,111 +64,6 @@
             this.Num02.TabIndex = 1;
             this.Num02.Text = "Numero02";
             // 
-            // txtNumero01
-            // 
-            this.txtNumero01.AcceptsReturn = true;
-            this.txtNumero01.ForeColor = System.Drawing.Color.Black;
-            this.txtNumero01.Location = new System.Drawing.Point(159, 64);
-            this.txtNumero01.Name = "txtNumero01";
-            this.txtNumero01.Size = new System.Drawing.Size(129, 25);
-            this.txtNumero01.TabIndex = 2;
-            this.txtNumero01.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtNumero01.TextChanged += new System.EventHandler(this.txtNumero01_TextChanged);
-            // 
-            // txtNumero02
-            // 
-            this.txtNumero02.ForeColor = System.Drawing.Color.Black;
-            this.txtNumero02.Location = new System.Drawing.Point(159, 95);
-            this.txtNumero02.Name = "txtNumero02";
-            this.txtNumero02.Size = new System.Drawing.Size(129, 25);
-            this.txtNumero02.TabIndex = 3;
-            this.txtNumero02.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtNumero02.TextChanged += new System.EventHandler(this.txtNumero02_TextChanged);
-            // 
-            // txtSoma
-            // 
-            this.txtSoma.AutoSize = true;
-            this.txtSoma.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoma.ForeColor = System.Drawing.Color.MediumBlue;
-            this.txtSoma.Location = new System.Drawing.Point(28, 151);
-            this.txtSoma.Name = "txtSoma";
-            this.txtSoma.Size = new System.Drawing.Size(50, 20);
-            this.txtSoma.TabIndex = 4;
-            this.txtSoma.Text = "Soma";
-            this.txtSoma.Click += new System.EventHandler(this.txtSoma_Click);
-            // 
-            // txtSubtracao
-            // 
-            this.txtSubtracao.AutoSize = true;
-            this.txtSubtracao.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSubtracao.ForeColor = System.Drawing.Color.MediumBlue;
-            this.txtSubtracao.Location = new System.Drawing.Point(28, 182);
-            this.txtSubtracao.Name = "txtSubtracao";
-            this.txtSubtracao.Size = new System.Drawing.Size(83, 20);
-            this.txtSubtracao.TabIndex = 5;
-            this.txtSubtracao.Text = "Subtração";
-            this.txtSubtracao.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // txtMultiplicacao
-            // 
-            this.txtMultiplicacao.AutoSize = true;
-            this.txtMultiplicacao.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMultiplicacao.ForeColor = System.Drawing.Color.MediumBlue;
-            this.txtMultiplicacao.Location = new System.Drawing.Point(28, 213);
-            this.txtMultiplicacao.Name = "txtMultiplicacao";
-            this.txtMultiplicacao.Size = new System.Drawing.Size(107, 20);
-            this.txtMultiplicacao.TabIndex = 6;
-            this.txtMultiplicacao.Text = "Multiplicação";
-            this.txtMultiplicacao.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // txtDivisao
-            // 
-            this.txtDivisao.AutoSize = true;
-            this.txtDivisao.Font = new System.Drawing.Font("Microsoft YaHei", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDivisao.ForeColor = System.Drawing.Color.MediumBlue;
-            this.txtDivisao.Location = new System.Drawing.Point(28, 245);
-            this.txtDivisao.Name = "txtDivisao";
-            this.txtDivisao.Size = new System.Drawing.Size(61, 20);
-            this.txtDivisao.TabIndex = 7;
-            this.txtDivisao.Text = "Divisão";
-            // 
-            // textBox1
-            // 
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(159, 151);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(129, 25);
-            this.textBox1.TabIndex = 8;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
-            // 
-            // textBox2
-            // 
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(159, 182);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(129, 25);
-            this.textBox2.TabIndex = 9;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox3
-            // 
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(159, 213);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(129, 25);
-            this.textBox3.TabIndex = 10;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox4
-            // 
-            this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(159, 245);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(129, 25);
-            this.textBox4.TabIndex = 11;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -183,23 +75,85 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Calculadora Básica";
             // 
+            // soma
+            // 
+            this.soma.Location = new System.Drawing.Point(32, 153);
+            this.soma.Name = "soma";
+            this.soma.Size = new System.Drawing.Size(28, 23);
+            this.soma.TabIndex = 13;
+            this.soma.Text = "+";
+            this.soma.UseVisualStyleBackColor = true;
+            this.soma.Click += new System.EventHandler(this.SOMA_Click);
+            // 
+            // subtracao
+            // 
+            this.subtracao.Location = new System.Drawing.Point(32, 184);
+            this.subtracao.Name = "subtracao";
+            this.subtracao.Size = new System.Drawing.Size(28, 23);
+            this.subtracao.TabIndex = 14;
+            this.subtracao.Text = "-";
+            this.subtracao.UseVisualStyleBackColor = true;
+            // 
+            // multiplicacao
+            // 
+            this.multiplicacao.Location = new System.Drawing.Point(32, 214);
+            this.multiplicacao.Name = "multiplicacao";
+            this.multiplicacao.Size = new System.Drawing.Size(28, 23);
+            this.multiplicacao.TabIndex = 15;
+            this.multiplicacao.Text = "x";
+            this.multiplicacao.UseVisualStyleBackColor = true;
+            // 
+            // divisao
+            // 
+            this.divisao.Location = new System.Drawing.Point(32, 246);
+            this.divisao.Name = "divisao";
+            this.divisao.Size = new System.Drawing.Size(28, 23);
+            this.divisao.TabIndex = 16;
+            this.divisao.Text = "÷";
+            this.divisao.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.ForeColor = System.Drawing.Color.Black;
+            this.textBox5.Location = new System.Drawing.Point(159, 95);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(129, 25);
+            this.textBox5.TabIndex = 17;
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox6
+            // 
+            this.textBox6.ForeColor = System.Drawing.Color.Black;
+            this.textBox6.Location = new System.Drawing.Point(159, 59);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(129, 25);
+            this.textBox6.TabIndex = 18;
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(155, 155);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 19);
+            this.label2.TabIndex = 19;
+            this.label2.Text = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(357, 327);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.divisao);
+            this.Controls.Add(this.multiplicacao);
+            this.Controls.Add(this.subtracao);
+            this.Controls.Add(this.soma);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.txtDivisao);
-            this.Controls.Add(this.txtMultiplicacao);
-            this.Controls.Add(this.txtSubtracao);
-            this.Controls.Add(this.txtSoma);
-            this.Controls.Add(this.txtNumero02);
-            this.Controls.Add(this.txtNumero01);
             this.Controls.Add(this.Num02);
             this.Controls.Add(this.Num01);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -208,6 +162,7 @@
             this.Name = "Form1";
             this.RightToLeftLayout = true;
             this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,17 +172,14 @@
         private System.Windows.Forms.ColorDialog colorDialog2;
         private System.Windows.Forms.Label Num01;
         private System.Windows.Forms.Label Num02;
-        private System.Windows.Forms.TextBox txtNumero01;
-        private System.Windows.Forms.TextBox txtNumero02;
-        private System.Windows.Forms.Label txtSoma;
-        private System.Windows.Forms.Label txtSubtracao;
-        private System.Windows.Forms.Label txtMultiplicacao;
-        private System.Windows.Forms.Label txtDivisao;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button soma;
+        private System.Windows.Forms.Button subtracao;
+        private System.Windows.Forms.Button multiplicacao;
+        private System.Windows.Forms.Button divisao;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label2;
     }
 }
 
