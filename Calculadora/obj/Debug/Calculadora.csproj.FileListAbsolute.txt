@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\bin\Debug\Calculadora.exe.config
 C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\bin\Debug\Calculadora.exe
 C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\bin\Debug\Calculadora.pdb
@@ -9,3 +10,16 @@ C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\obj\Debug\Calculado
 C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\obj\Debug\Calculadora.pdb
+=======
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\UNB\Meu Drive\2023\06-CalculadoraCsharp\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+>>>>>>> d8e017d03e6270c06e4645907d11c9b268b60e34

@@ -4,7 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{269878E6-8917-491F-8E5A-4D46EC2A0EAC}</ProjectGuid>
+=======
+    <ProjectGuid>{AD61749D-3057-4A6E-A6FF-AEF88B262349}</ProjectGuid>
+>>>>>>> d8e017d03e6270c06e4645907d11c9b268b60e34
     <OutputType>WinExe</OutputType>
     <RootNamespace>Calculadora</RootNamespace>
     <AssemblyName>Calculadora</AssemblyName>
