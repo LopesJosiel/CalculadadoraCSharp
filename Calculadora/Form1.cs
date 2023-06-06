@@ -29,65 +29,66 @@ namespace Calculadora
            
         }
 
-        private void button20_Click(object sender, EventArgs e)
+        private void Button20_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "0";
+            textResultado.Text += "0";
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void Button15_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "1";
+            textResultado.Text +=  "1";
         }
 
-        private void button14_Click(object sender, EventArgs e)
+        private void Button14_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "2";
+            textResultado.Text += "2";
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        private void Button13_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "3";
+            textResultado.Text += "3";
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void Button10_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "4";
+            textResultado.Text += "4";
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void Button9_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "5";
+            textResultado.Text += "5";
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void Button8_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "6";
+            textResultado.Text += "6";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "7";
+            textResultado.Text += "7";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "8";
+            textResultado.Text += "8";
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + "9";
+            textResultado.Text += "9";
         }
 
-        private void button18_Click(object sender, EventArgs e)
+        private void Button18_Click(object sender, EventArgs e)
         {
-            textResultado.Text = textResultado.Text + ".";
+            textResultado.Text += ".";
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Button4_Click(object sender, EventArgs e)
         {
             num1 = Double.Parse (textResultado.Text, CultureInfo.InvariantCulture); // Lidando com números com a vírgula nos números;
-            textResultado.Text = "SOMA";
+            textResultado.Text = "";
+            operacao = "SOMA";
             lblOperacao.Text = "+";
         }
     }
